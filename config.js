@@ -38,8 +38,8 @@ module.exports = {
     STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
     // ===== MEDIA & AUTOMATION =====
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "true",            // Show typing indicator?
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
+    AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     MENTION_REPLY: process.env.MENTION_REPLY || "false",   // reply on mentioned message 
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/7zfdcq.jpg",  // Bot's "alive" menu mention image
 
